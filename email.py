@@ -22,11 +22,11 @@ if request.method == 'POST':
    email = request.POST['email']
    
 
-contacts = ['exemple@gmail.com', 'exemple@gmail.com']
+contacts = ['exemple@gmail.com', 'send_to_exemple@gmail.com']
 
 # Create the 'msg' message and fill in the from, to, and subject headers
 msg = EmailMessage()
-msg['Subject'] = 'Portfolio Message!'
+msg['Subject'] = 'Message Subject exemple!'
 msg['From'] = EMAIL_ADDRESS
 msg['To'] = 'exemple@gmail.com'
 
