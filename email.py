@@ -46,6 +46,6 @@ msg.add_alternative("""\
 
 # Send the email (this example assumes SMTP authentication is required)
 with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-    smtp.login("exemple@gmail.com", "Password")
+    smtp.login("exemple@gmail.com", "Password_exemple")
     smtp.send_message(msg)
 
